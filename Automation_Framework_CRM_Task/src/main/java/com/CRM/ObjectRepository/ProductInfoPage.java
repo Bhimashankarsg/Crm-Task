@@ -12,7 +12,7 @@ public class ProductInfoPage {
 	public ProductInfoPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	//    - NOT USED INDEX:    aT A TIME   - AGAIN CHANGED
+	//    - NOT USED INDEX:    aT A TIME   - AGAIN CHANGED-- COMPLETED
 		@FindBy(id = "dtlview_Website")
 		private WebElement Bhimashankar_Website;
 
