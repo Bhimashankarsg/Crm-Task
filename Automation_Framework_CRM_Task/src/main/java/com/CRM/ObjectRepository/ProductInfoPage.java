@@ -12,7 +12,14 @@ public class ProductInfoPage {
 	public ProductInfoPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	// Bhimashankar_
+		@FindBy(id = "dtlview_Website")
+		private WebElement Bhimashankar_Website;
 
+		
+		public WebElement Bhimashankar_getElementText() {
+			return Bhimashankar_Website;
+		}
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement ElementText;
 
@@ -42,7 +49,9 @@ public class ProductInfoPage {
 
 	@FindBy(id = "dtlview_Website")
 	private WebElement Website;
-
+	
+	@FindBy(id = "asha")
+	private WebElement ashalink;
 	
 	// Getters
 	public WebElement getElementText() {
