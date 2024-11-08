@@ -20,6 +20,12 @@ public class ProductInfoPage {
 		public WebElement Bhimashankar_getElementText() {
 			return Bhimashankar_Website;
 		}
+		
+		// Ridhima
+				@FindBy(id = "dtlview_Website")
+				private WebElement RIcon;
+
+				
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement ElementText;
 
