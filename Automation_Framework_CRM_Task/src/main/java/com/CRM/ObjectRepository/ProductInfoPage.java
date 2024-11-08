@@ -48,6 +48,7 @@ public class ProductInfoPage {
 	public WebElement getElementText() {
 		return ElementText;
 	}
+	
 
 	public WebElement getPartNumber() {
 		return PartNumber;
