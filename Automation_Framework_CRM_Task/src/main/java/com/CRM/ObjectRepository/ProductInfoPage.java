@@ -33,6 +33,8 @@ public class ProductInfoPage {
 				@FindBy(id = "New changes")
 				private WebElement newChanges;
 				
+				//ridhima new change
+				
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement ElementText;
 
