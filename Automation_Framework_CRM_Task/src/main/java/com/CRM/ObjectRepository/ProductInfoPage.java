@@ -42,7 +42,9 @@ public class ProductInfoPage {
 
 	@FindBy(id = "dtlview_Website")
 	private WebElement Website;
-
+	
+	@FindBy(id = "asha")
+	private WebElement ashalink;
 	
 	// Getters
 	public WebElement getElementText() {
