@@ -29,6 +29,10 @@ public class ProductInfoPage {
 				@FindBy(id = "dtlview_Website")
 				private WebElement rim_Changes;
 				
+				//// Ridhima
+				@FindBy(id = "New changes")
+				private WebElement newChanges;
+				
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement ElementText;
 
